@@ -42,6 +42,7 @@ func main() {
 		ProviderNameOriginal: "vsphere",
 		ProviderData:         vsphere.Provider(),
 		ProviderImportPath:   "github.com/hashicorp/terraform-provider-vsphere/vsphere",
+		ProviderConfig:       "hashicorp/vsphere",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
